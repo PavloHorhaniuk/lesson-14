@@ -1,0 +1,35 @@
+header{
+    padding: 35px 15px;
+    margin: 0 auto;
+    outline: solid 2px red;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+h1,
+nav,
+div{
+    outline: dashed 2px green;
+}
+.nav_menu{
+    display: flex;
+
+}
+.join_block{
+    display: flex;
+}
+.nav_menu_item:nth-child(2n){
+    padding-right: 30px;
+}
+.nav_menu_item:nth-child(1){
+    padding-right: 30px;
+}
+.nav_menu_item:nth-child(3){
+    padding-right: 30px;
+}
+.nav_menu_item:nth-last-child(1){
+    padding-right: 30px;
+}
